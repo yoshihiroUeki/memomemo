@@ -48,7 +48,7 @@
                         <textarea name="contact"></textarea>
                         <br>
                         <input type="checkbox" name="caution" value="1">注意事項に同意する
-                        <br>
+                        {{-- <br> --}}
                         <input class="btn btn-info" type="submit" value="登録する">
 
                         </form>
