@@ -15,6 +15,8 @@
                     @endif
 
                     You are logged in!
+                    <a href="{{ route('contact.index')}}">お問い合わせフォームへ</a>
+
                 </div>
             </div>
         </div>

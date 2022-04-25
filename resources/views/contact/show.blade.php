@@ -14,14 +14,27 @@
                         </div>
                     @endif
 
-                    showです
+                    {{-- showです --}}
                     {{ $contact->your_name }}
+                    <br>
+                    <br>
                     {{ $contact->title }}
+                    <br>
+                    <br>
                     {{ $contact->email }}
+                    <br>
+                    <br>
                     {{ $contact->url }}
+                    <br>
+                    <br>
                     {{ $gender }}
+                    <br>
+                    <br>
                     {{ $age }}
+                    <br>
+                    <br>
                     {{ $contact->contact }}
+                    {{-- <br> --}}
                     <form method="GET" action="{{ route('contact.edit', ['id' => $contact->id ])}}">
                         @csrf
                         <input class="btn btn-info" type="submit" value="変更する">
